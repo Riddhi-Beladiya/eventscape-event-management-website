@@ -1,0 +1,58 @@
+.fc {
+  font-family: 'Poppins', sans-serif;
+}
+
+.fc-toolbar {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.fc-button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fc-button:hover {
+  background-color: #0056b3;
+}
+
+.fc-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.fc-daygrid-day {
+  border: 1px solid #dee2e6;
+  color: red;
+}
+
+.fc-daygrid-day:hover {
+  background-color: #e9ecef;
+ 
+}
+
+.fc-daygrid-event {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.fc-daygrid-event:hover {
+  background-color: #0056b3;
+}
+
+a{
+    color: #111827;
+}
+
+.fc-scrollgrid-sync-inner{
+    padding: 10px;
+    font-size: 20px;
+}

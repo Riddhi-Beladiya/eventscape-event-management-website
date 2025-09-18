@@ -1,0 +1,23 @@
+:root {
+    --color-primary-white: rgb(240, 240, 240);
+  }
+  
+  .slick-prev:before {
+    content: '〈';
+  }
+  .slick-prev:before, .slick-next:before {
+    font-size: 30px;
+    line-height: 1;
+    opacity: 0.75;
+    color: gray;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 900;
+  }
+  .slick-next:before {
+    content: '〉';
+  }
+  .slick-slide {
+    padding: 0 1rem;
+  }
+  

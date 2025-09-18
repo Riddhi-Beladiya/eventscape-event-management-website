@@ -1,0 +1,64 @@
+
+.sidebar {
+  background-color: #111827;
+  transition: width 0.4s, background-color 0.3s;
+}
+
+.header {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #111827;
+  position: relative;
+  transition: background-color 0.3s
+  hover
+
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 550;
+}
+
+.header button i {
+  font-size: 1rem;
+}
+.separator-wrapper {
+  position: relative;
+}
+
+.separator-wrapper .separator {
+  margin: 0;
+  border: 0.5px solid white;
+  transition: border-color 0.3s;
+}
+
+.separator-wrapper .minimize-btn {
+  border: 1px solid #111827;
+  background-color: white;
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(50%);
+  right: 0;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.separator-wrapper .minimize-btn input {
+  display: none;
+}
+
+.navigation {
+  text-align: center;
+  padding: 1px;
+}
+

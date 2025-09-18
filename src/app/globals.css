@@ -2,20 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.page {
+    margin-top: 10%; 
+}
+.btn {
+    background: linear-gradient(90deg, #2563eb  0%, #00226b 100%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.btn:hover {
+    background: linear-gradient(90deg, #00226b  0%, #2563eb 100%);
+}
+@media screen and (max-width: 428px) {
+  .btn{
+    padding: 5px 8px;
+    font-size: 12px;
   }
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+@keyframes spin-slow {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .animate-spin-slow {
+    animation: spin-slow 5s linear infinite;
+  }
+  
